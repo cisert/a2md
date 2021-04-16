@@ -2,8 +2,6 @@
 
 Anisotropic Analitically Modelled Density
 
-**NOTE: We are retraining the networks, to ensure reproducibility**
-
 <img src="a2mdnet_brochure.png" width=500px alt="brochure">
 
 ## Summary
@@ -19,24 +17,22 @@ The A2MD repository contains:
 - **cdens**: a fast C executable to sample density
 - **a2mdtests**: small ensemble of molecules to test the methodology
 - **scripts**: the methodology turned into a cli set of tools
-- **examples**
 
 Read the docs folder to learn to use the library and the CLI tools. 
 
 ## Dependencies
 
-Some of the most important dependencies are:
-- numpy
-- torch
-- torchani (1.2)
+Dependencies can be installed using the requirements.txt file.
 
-We provide a "requirements.txt" to ease installation through pip. 
+    pip3 install -r requirements
+
+The optimum PyTorch version will depend on your hardware, so we recomend system-taylored PyTorch installations.  
 
 ## Contact
 
 There is a lot of things to polish, and we'd love feedback. Don't hesitate to contact us:
 
-	bruno.czvuria@upm.es
+	bruno.czuviria@upm.es
 
 ## Licence
 
