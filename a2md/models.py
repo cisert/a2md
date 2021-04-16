@@ -630,7 +630,7 @@ class Molecule(A2MDBaseClass):
         :return:
         """
         if self.atom_labels is None:
-            return [MAP_AN2SYMBOL[i] for i in self.atomic_numbers]
+            return [MAP_AN2SYMBOL["symbol"][i] for i in self.atomic_numbers]
         else:
             return self.atom_labels
 
